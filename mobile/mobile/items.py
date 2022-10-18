@@ -8,5 +8,10 @@ import scrapy
 
 class MobileItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    Model_name = scrapy.Field()
+    Price = scrapy.Field()
+    RAM = scrapy.Field()
+    ROM = scrapy.Field()
+    OS = scrapy.Field()
+
+    
